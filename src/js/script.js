@@ -1,26 +1,26 @@
 const portfolioItems = [
   {
-    title: "Residência Atmosfera",
+    title: "Banheiro",
     image: "./src/assets/images/projeto-banheiro.png",
   },
   {
-    title: "Cobertura Horizonte",
+    title: "Biblioteca",
     image: "./src/assets/images/projeto-biblioteca.png",
   },
   {
-    title: "Loft Essencial",
+    title: "Cozinha",
     image: "./src/assets/images/projeto-cozinha.png",
   },
   {
-    title: "Casa Pátio",
+    title: "Quarto",
     image: "./src/assets/images/projeto-quarto.png",
   },
   {
-    title: "Suíte Orla",
+    title: "Sala de jantar moderna",
     image: "./src/assets/images/projeto-sala.png",
   },
   {
-    title: "Apartamento Galeria",
+    title: "Sala de jantar",
     image: "./src/assets/images/projeto-sala-2.png",
   },
   // {
