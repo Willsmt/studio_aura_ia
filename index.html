@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio Aura | Design de Interiores e Arquitetura</title>
+    <meta
+      name="description"
+      content="Studio Aura cria interiores autorais com sofisticação contemporânea para residências e espaços de alto padrão."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="topo">
+      <div class="container header-inner">
+        <a href="#topo" class="brand">STUDIO AURA</a>
+        <button
+          class="menu-toggle"
+          aria-expanded="false"
+          aria-controls="menu-principal"
+          aria-label="Abrir menu"
+        >
+          <span></span><span></span>
+        </button>
+        <nav class="main-nav" id="menu-principal">
+          <a href="#portfolio">Portfólio</a>
+          <a href="#processo">Processo</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#depoimentos">Depoimentos</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <video class="hero-video" autoplay muted loop playsinline>
+          <source src="./src/assets/images/interior-dark-video.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content reveal">
+          <p class="eyebrow">Studio Aura</p>
+          <h1>Studio Aura</h1>
+          <p>
+            Design de Interiores e Arquitetura de Alto Padrão.
+          </p>
+          <div class="hero-actions">
+            <a href="#portfolio" class="btn btn-primary">Ver trabalhos</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="camadas section section-tight" id="camadas">
+        <div class="container camadas-grid">
+          <div class="camadas-copy reveal">
+            <p class="eyebrow">Imersão visual</p>
+            <h2>Conceito, camada por camada</h2>
+            <p>
+              Uma seção dedicada ao processo visual do estúdio, revelando como
+              luz, textura e proporção são refinadas até o resultado final.
+            </p>
+          </div>
+          <div class="camadas-media reveal">
+            <video autoplay muted loop playsinline>
+              <source src="./src/assets/images/video-camadas.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <section class="processo section" id="processo">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Nosso processo</p>
+            <h2>Nosso processo</h2>
+          </div>
+          <div class="process-steps process-steps-horizontal">
+            <article class="step reveal">
+              <span>01</span>
+              <h3>Consultoria e Estudo</h3>
+              <p>
+                Entendimento do estilo de vida, briefing detalhado e leitura
+                arquitetônica do espaço.
+              </p>
+            </article>
+            <article class="step reveal">
+              <span>02</span>
+              <h3>Projeto e Definições</h3>
+              <p>
+                Desenvolvimento do conceito, layout, materiais e especificações
+                técnicas com precisão.
+              </p>
+            </article>
+            <article class="step reveal">
+              <span>03</span>
+              <h3>Curadoria Final</h3>
+              <p>
+                Acompanhamento da execução e curadoria de acabamentos para
+                garantir coerência estética.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio section" id="portfolio">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Projetos selecionados</p>
+            <h2>Projetos Selecionados</h2>
+          </div>
+          <div class="portfolio-grid" id="portfolio-grid"></div>
+          <div class="portfolio-action reveal">
+            <a href="#contato" class="btn btn-primary">Ver mais projetos</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="sobre section" id="sobre">
+        <div class="container about-grid">
+          <div class="about-copy reveal">
+            <p class="eyebrow">Sobre</p>
+            <h2>A arte do luxo discreto através de espaços que contam histórias</h2>
+            <p>
+              Marina Vasconcelos lidera o Studio Aura com uma abordagem autoral
+              que combina arquitetura, interiores e direção estética em um
+              método preciso.
+            </p>
+            <p>
+              Cada projeto parte da escuta e evolui para composições limpas,
+              materiais nobres e uma atmosfera sofisticada, sem excessos.
+            </p>
+            <a href="#contato" class="btn btn-link">Saiba mais</a>
+          </div>
+          <figure class="about-photo reveal">
+            <img
+              src="./src/assets/images/marina.png"
+              alt="Marina Vasconcelos, fundadora do Studio Aura"
+              onerror="this.classList.add('asset-missing')"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="depoimentos section" id="depoimentos">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Depoimentos</p>
+            <h2>O que dizem nossos clientes</h2>
+          </div>
+          <div class="testimonials-grid">
+            <blockquote class="testimonial reveal">
+              <p>
+                "O resultado superou todas as expectativas. O Studio Aura criou
+                uma casa elegante, funcional e extremamente acolhedora."
+              </p>
+              <cite>Renata L. | Cidade Jardim</cite>
+            </blockquote>
+            <blockquote class="testimonial reveal">
+              <p>
+                "A experiência foi muito acima do esperado: método claro,
+                decisões assertivas e um acabamento final impecável."
+              </p>
+              <cite>Eduardo M. | Itaim Bibi</cite>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section class="contato section" id="contato">
+        <div class="container contact-grid">
+          <div class="contact-info reveal">
+            <p class="eyebrow">Contato</p>
+            <h2>Inicie seu Projeto</h2>
+            <p>
+              Conte os detalhes do seu espaço e receba um primeiro direcionamento
+              estratégico do Studio Aura.
+            </p>
+            <ul>
+              <li>contato@studioaura.com.br</li>
+              <li>+55 11 99999-9999</li>
+              <li>São Paulo, Brasil</li>
+            </ul>
+          </div>
+          <form class="contact-form reveal" id="contact-form" novalidate>
+            <label>
+              Nome Completo
+              <input type="text" name="nome" required />
+              <small>Informe nome e sobrenome.</small>
+            </label>
+            <label>
+              E-mail
+              <input type="email" name="email" required />
+              <small>Usaremos para retorno da proposta.</small>
+            </label>
+            <label>
+              Tipo de Projeto
+              <input type="text" name="projeto" required />
+              <small>Exemplo: apartamento, casa ou escritório.</small>
+            </label>
+            <label>
+              Mensagem
+              <textarea name="mensagem" rows="4" required></textarea>
+              <small>Inclua escopo, prazo e localização.</small>
+            </label>
+            <p class="form-feedback" id="form-feedback" aria-live="polite"></p>
+            <button type="submit" class="btn btn-primary">Enviar briefing</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>STUDIO AURA</p>
+        <div class="footer-links">
+          <a href="#">Política de privacidade</a>
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+        </div>
+        <small>© 2026 Studio Aura. Todos os direitos reservados.</small>
+      </div>
+    </footer>
+
+    <a
+      class="whatsapp-float"
+      href="https://wa.me/5511998742031"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Falar no WhatsApp"
+    >
+      WhatsApp
+    </a>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"
+      defer
+    ></script>
+    <script src="./src/js/script.js" defer></script>
+  </body>
+</html>
